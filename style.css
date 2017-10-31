@@ -12,25 +12,19 @@ body{
     top: 50%;
     left:50%;
    transform: translate(-50%,-50%);
-
 }
 
 #clock{
-
     font-size: 70px;
     color: blue;
-
 }
 
 #clock2{
     font-size: 50px;
     color: darkgreen;
-
-
 }
 
 #clock3{
-
     font-size: 50px;
     color: Black;
 }
