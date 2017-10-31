@@ -6,7 +6,6 @@ function onReady() {
     var clock = new Clock('clock');
     var clock2 = new Clock('clock2',+120,'RW');
     var clock3 = new Clock('clock3',+180,'UG');
-
 }
 
 Date.prototype.updateSeconds = function(){
@@ -35,8 +34,7 @@ function Clock(id,offset,label) {
         this.d.autoClock(true);
         this.id = id;
         this.label = label;
-
-
+    
     var that = this;
     setInterval(function(){that.updateClock();}, 1000);
     this.updateClock();
